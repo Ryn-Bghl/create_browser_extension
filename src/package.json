@@ -1,0 +1,31 @@
+{
+  "name": "create-extension",
+  "version": "1.0.0",
+  "description": "Scaffold modern browser extension projects fast.",
+  "keywords": [
+    "browser",
+    "extension",
+    "cli",
+    "scaffold",
+    "npx"
+  ],
+  "homepage": "https://github.com/yourusername/create-extension#readme",
+  "bugs": {
+    "url": "https://github.com/yourusername/create-extension/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/create-extension.git"
+  },
+  "license": "MIT",
+  "author": "duck_noris*",
+  "type": "module",
+  "main": "bin/create-extension.js",
+  "scripts": {
+    "create": "node create-extension.js"
+  },
+  "dependencies": {
+    "fs-extra": "^11.3.0",
+    "inquirer": "^12.6.3"
+  }
+}
