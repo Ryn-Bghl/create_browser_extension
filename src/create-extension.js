@@ -52,7 +52,7 @@ async function run() {
       type: "checkbox",
       name: "permissions",
       message: "permissions:",
-      choices: ["storage", "tabs", "activeTab", "notifications", "background"],
+      choices: ["storage", "tabs", "activeTab", "notifications"],
     },
   ]);
 
